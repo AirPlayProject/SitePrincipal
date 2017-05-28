@@ -1,0 +1,126 @@
+/**
+* saver
+*
+*
+* This style sheet describes the
+* structure and the main components
+* about saver interface
+*
+* @project saver
+* @version 1.0
+* @package layout
+* @Copyright AirPlay Project© 2017
+*
+*
+*/
+/* =============================================================================
+  Global Structure
+============================================================================= */
+
+/* =======================
+  General Config
+======================= */
+html, body {
+    height: 100%;
+}
+section{
+    padding: 25px 0;
+}
+/*h1, h2, h3, h4, h5, h6{
+    -webkit-animation: fadeInDown 0.8s linear;
+    -moz-animation: fadeInDown 0.8s linear;
+    animation: fadeInDown 0.8s linear;
+}*/
+img#icone, h1, h2, h3, h4, h5, h6{
+    -webkit-animation: fadeInUp 1s linear;
+    -moz-animation: fadeInUp 1s linear;
+    animation: fadeInUp 1s linear;
+}
+img#home, p#sitePrincipal{
+    -webkit-animation: zoomIn 1s linear;
+    -moz-animation: zoomIn 1s linear;
+    animation: zoomIn 1s linear;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.italic{
+    font-style: italic;
+}
+.margin-0{
+    margin: 0;
+}
+.bold{
+    font-weight: 700;
+}
+.light{
+    font-weight: 300;
+}
+.black{
+    font-weight: 900;
+}
+.inline{
+    display: inline-block;
+}
+.inline-n{
+    display: inline;
+}
+.no-style{
+    list-style: none;
+}
+ul.inline li{
+    display: inline-block;
+}
+ul{
+    padding: 0;
+}
+/* =======================
+  Fonts
+======================= */
+.lato{
+    font-family: 'Lato';
+}
+
+/* =======================
+  Links
+======================= */
+a:focus, a:visited {
+    border: none;
+}
+a:focus, a:hover {
+    text-decoration: none;
+}
+
+/* =======================
+  Icons
+======================= */
+i.fa {
+    margin-right: 5px;
+}
+
+/* =======================
+  Buttons
+======================= */
+.btn{
+    font-style: normal;
+}
+button:focus, button:active, button:hover {
+    outline:0px !important;
+    -webkit-appearance:none;
+}
+.btn:focus, .btn:active, .btn:hover {
+    outline:0px !important;
+    -webkit-appearance:none;
+}
+
+/* =======================
+  Margin
+======================= */
+.mg-t3{margin-top: 3px;}.mg-b3{margin-bottom: 3px;}.mg-t5{margin-top: 5px;}.mg-t10{margin-top: 10px;}.mg-t15{margin-top: 15px;}.mg-t20{margin-top: 20px;}.mg-t25{margin-top: 25px;}.mg-t30{margin-top: 30px;}
+.mg-t35{margin-top: 35px;}.mg-t40{margin-top: 40px;}.mg-t45{margin-top: 45px;}.mg-t50{margin-top: 50px;}.mg-t55{margin-top: 55px;}.mg-t60{margin-top: 60px;}.mg-t65{margin-top: 65px;}
+.mg-t70{margin-top: 70px;}.mg-t75{margin-top: 75px;}.mg-t80{margin-top: 80px;}.mg-t85{margin-top: 85px;}.mg-t120{margin-top: 120px;}.mg-b20{margin-bottom: 20px;}.mg-b30{margin-bottom: 30px;}.mg-b40{margin-bottom: 40px;}.mg-b45{margin-bottom: 45px;}.mg-b50{margin-bottom: 50px;}
+.mg-b10{margin-bottom: 10px;}.mg-b60{margin-bottom: 60px;}.mg-b100{margin-bottom: 100px;}.mg-b200{margin-bottom: 200px;}.mg-b300{margin-bottom: 300px;}.mg-b400{margin-bottom: 400px;}
+.pg-t3{padding-top: 3px;}.pg-t5{padding-top: 5px;}.pg-t10{padding-top: 10px;}.pg-t15{padding-top: 15px;}.pg-t20{padding-top: 20px;}.pg-t25{padding-top: 25px;}.pg-t30{padding-top: 30px;}
+.pg-t35{padding-top: 35px;}.pg-t40{padding-top: 40px;}.pg-t45{padding-top: 45px;}.pg-t50{padding-top: 50px;}.pg-t55{padding-top: 55px;}.pg-t60{padding-top: 60px;}.pg-t65{padding-top: 65px;}
+.pg-t70{padding-top: 70px;}.pg-t75{padding-top: 75px;}.pg-t80{padding-top: 80px;}.pg-t85{padding-top: 85px;}.pg-t120{padding-top: 120px;}.pg-b20{padding-bottom: 20px;}.pg-b30{padding-bottom: 30px;}.pg-b40{padding-bottom: 40px;}.pg-b45{padding-bottom: 45px;}.pg-b50{padding-bottom: 50px;}
+.pg-b60{padding-bottom: 60px;}.pg-b100{padding-bottom: 100px;}.pg-b200{padding-bottom: 200px;}.pg-b300{padding-bottom: 300px;}.pg-b400{padding-bottom: 400px;}
