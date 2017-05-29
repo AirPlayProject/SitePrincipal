@@ -145,3 +145,10 @@ function topFunction() {
 	document.documentElement.scrollTop = 0;
 }
 	</script>
+<script>
+         window.onload = function() {
+         	document.body.onselectstart = function() {
+         		return false;
+         	}
+         }
+      </script>
